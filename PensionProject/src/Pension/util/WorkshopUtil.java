@@ -6,7 +6,7 @@ public class WorkshopUtil {
 		
 	}
 	
-	public static String Format(int price) {
+	public static String moneyFormat(int price) {
 		return null;
 		
 	}
