@@ -3,12 +3,15 @@ package Pension;
 public class Standard extends RoomType {
 	
 	public Standard() {
-		super(0, 0);
+		super(14, 80000);
 	}
 
 	@Override
 	public String toString() {
-		return toString();
+		StringBuffer sb = new StringBuffer();
+		sb = sb.append("½ºÅÄ´Ù¸£·ë ");
+		sb = sb.append(super.toString());
+		return sb.toString();
 	}
 	
 	

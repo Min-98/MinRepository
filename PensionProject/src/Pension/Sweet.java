@@ -2,12 +2,15 @@ package Pension;
 
 public class Sweet extends RoomType {
 	public Sweet() {
-		super(0, 0);
+		super(30, 260000);
 	}
 
 	@Override
 	public String toString() {
-		return toString();
+		StringBuffer sb = new StringBuffer();
+		sb = sb.append("½ºÀ§Æ®·ë ");
+		sb = sb.append(super.toString());
+		return sb.toString();
 	}
 	
 }
